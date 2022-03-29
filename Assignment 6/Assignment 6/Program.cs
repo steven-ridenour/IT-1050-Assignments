@@ -10,6 +10,7 @@ namespace Assignment_6
     {
         static void Main(string[] args)
         {
+            //updated 
             /*
            Create a class called Pet.
                Every Pet has a name, which is a string.
