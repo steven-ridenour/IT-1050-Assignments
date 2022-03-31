@@ -12,5 +12,9 @@ namespace New_Assignment
         public string name;
         public string breed;
         public int age;
+
+        public static int totalNumberOfPets;
+        public static int sumOfAllPetAges;
+
     }
 }
