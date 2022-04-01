@@ -42,7 +42,7 @@ namespace Assignment_6
             // Creates an Array of pets of size according to previous question
             Pet[] pets = new Pet[petAmount];
 
-            for (int i = 0; i < petAmount; i++)
+            for (int i = 0; i < pets.Length; i++)
             {
                 pets[i] = new Pet();
 
@@ -62,7 +62,7 @@ namespace Assignment_6
 
             Console.Clear();
 
-            for (int i = 0; i < petAmount; i++)
+            for (int i = 0; i < pets.Length; i++)
             {
 
                 Console.WriteLine(pets[i].name + " is " + pets[i].age + " years old, and is a " + pets[i].breed + ".");
