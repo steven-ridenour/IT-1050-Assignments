@@ -8,14 +8,13 @@ namespace Assignment_8
 {
     internal class Pet
     { 
-        private int id;
         private string name;
         private string breed;
         private int age;
         private static int totalNumberOfPets = 0;
         private static int sumOfAllPetAges = 0;
 
-
+        
         public string getName()
         {
             return this.name;
