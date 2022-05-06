@@ -61,7 +61,16 @@ namespace Final_Exam
             //  ***     Optional Console Output        ***
             //  ******************************************
 
-
+            /*
+            Console.Write("ELEVATOR 1 IS OVER MAX CAPACITY: ");
+            Console.WriteLine(elevator1IsOverMaxCapacity);
+            Console.WriteLine("");
+            Console.Write("ELEVATOR 2 IS OVER MAX CAPACITY: ");
+            Console.WriteLine(elevator2IsOverMaxCapacity);
+            Console.WriteLine("");
+            Console.WriteLine("[PRESS ENTER TO CLOSE]");
+            Console.ReadLine();
+            */
         }
     }
 }
